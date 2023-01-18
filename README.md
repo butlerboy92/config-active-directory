@@ -169,3 +169,25 @@ In the radio selector select new root and name your domain (whatever).com and th
 <p>
 <img src="https://i.imgur.com/IwOYVdR.jpg" height="80%" width="80%" alt="Making into a Domain Controller"/>
 </p>
+
+<br />
+<br />
+
+
+<strong> Step 3:</strong> Create Admin and Normal User in Active Directory
+<br />
+<br />
+<p>
+Start by creating a few organizational units in Active Directory
+<br />
+<br />
+Click 'Tools' and then click 'Active Directory Users and Computers' and right click 'mydomain.com' ⇒ New ⇒ Organizational Units
+<br />
+Create _EMPLOYEES and _ADMINS
+<br />
+<br />
+Then in _ADMINS right click and create 'New' ⇒ 'User' name it whatever then right click your user and go to Properties >> Member of >> Add >> Domain Admins 
+<br/>
+OK and Apply to finish. Then logout of DC-1 and reconnect as mydomain.com\jane_admin
+  and use this as your admin from now on.
+</p>
