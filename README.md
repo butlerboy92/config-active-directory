@@ -293,3 +293,48 @@ Now you can log into Client-1 as a normal non-admin user
 <p>
 <img src="https://i.imgur.com/YJNCxAe.jpg" height="80%" width="80%" alt="Setting up remote access for non-admin users"/>
 </p>
+
+<br />
+<br />
+
+<strong> Step 5:</strong> Create additional users using a script!
+<br />
+<br />
+<p>
+Login to DC-1 as admin
+<br />
+Open Powershell ise as administrator
+<br />
+Search in task bar powershell.ise >> right click open as administrator
+<br />
+<br />
+Create a new file and paste the contents of the <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> in there
+<br />
+The accounts will be created and places into _EMPLOYEES (you can stop the script or let it run)
+<br />
+<br />
+Now you can login to Client-1 with any of these accounts created using mydomain.com\(user name created) and Password1
+</p>
+
+<br />
+<br />
+<strong>✪ Creating new Users with a script in Powershell ISE </strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/acXvRHL.jpg" height="80%" width="80%" alt="Creating new users using a script"/>
+</p>
+
+<br />
+<br />
+<h2>Finished!</h2>
+<p>
+Now you can mess with the accounts in DC-1 (reset passwords, disable account, etc.) and get a feel for Active Directory and how it works!
+</p>
+
+<br />
+<br />
+
+<p align="center">
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+</p>
