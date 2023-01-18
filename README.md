@@ -330,6 +330,8 @@ Now you can login to Client-1 with any of these accounts created using mydomain.
 <h2>Finished!</h2>
 <p>
 Now you can mess with the accounts in DC-1 (reset passwords, disable account, etc.) and get a feel for Active Directory and how it works!
+<br />
+You can also research more things that Active Diretory can do and try it out for yourself.
 </p>
 
 <br />
