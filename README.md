@@ -228,3 +228,46 @@ OK and Apply to finish. Then logout of DC-1 and reconnect as mydomain.com\jane_a
 <p>
 <img src="https://i.imgur.com/HftVymZ.jpg" height="80%" width="80%" alt="Reconnecting to DC-1 as new Admin"/>
 </p>
+
+
+<strong> Step 3.1:</strong> Join Client-1 to the domain
+<br />
+<br />
+<p>
+(in Azure) Set Client-1's DNS settings to DC-1's private IP Address
+<br />
+<br />
+Virtual Machines ⇒ Client-1 ⇒ Networking ⇒ Network Interface: client-**** ⇒ DNS Servers ⇒ Custom ⇒ addin DNS private IP Address
+<br />
+<br />
+Restart Client-1 from Azure Virtual Machines ⇒ Client-1 ⇒ Restart
+<br />
+<br />
+Reconnect to Client-1 and join Client-1 to DC-1
+<br />
+Right click start >> System >> Rename This PC >> Change >> Domain >> mydomain.com >> use admin account when prompt to make the changes >> Restart Client-1
+<br />
+<br />
+Now login to Client-1 with the new admin account
+</p>
+
+<br />
+<br />
+<strong>✪ Changing Client-1's DNS Settings</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/U7a8Ssl.jpg" height="80%" width="80%" alt="Client-1's VNIC"/>
+</p>
+<p>
+<img src="https://i.imgur.com/HdvaX95.jpg" height="80%" width="80%" alt="Client-1's DNS settings changed with DC-1's Private IP Address"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Changing Client-1's PC name to Domain mydomain.com for conneciton to DC-1 </strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/X3T7jf2.jpg" height="80%" width="80%" alt="Client-1's PC name setting change to mydomain.com"/>
+</p>
