@@ -245,7 +245,7 @@ Restart Client-1 from Azure Virtual Machines ⇒ Client-1 ⇒ Restart
 <br />
 Reconnect to Client-1 and join Client-1 to DC-1
 <br />
-Right click start >> System >> Rename This PC >> Change >> Domain >> mydomain.com >> use admin account when prompt to make the changes >> Restart Client-1
+Right click start ⇒ System ⇒ Rename This PC ⇒ Change ⇒ Domain ⇒ mydomain.com ⇒ use admin account when prompt to make the changes ⇒ Restart Client-1
 <br />
 <br />
 Now login to Client-1 with the new admin account
@@ -279,7 +279,7 @@ Now login to Client-1 with the new admin account
 <p>
 Login to Client-1 as the admin from DC-1 
 <br />
-Right click start >> System >> Remote Desktop >> Select users that can remotely access this PC >> ADD >> Domain users
+Right click start ⇒ System ⇒ Remote Desktop ⇒ Select users that can remotely access this PC ⇒ ADD ⇒ Domain users
 <br />
 <br />
 Now you can log into Client-1 as a normal non-admin user
@@ -305,7 +305,7 @@ Login to DC-1 as admin
 <br />
 Open Powershell ise as administrator
 <br />
-Search in task bar powershell.ise >> right click open as administrator
+Search in task bar powershell.ise ⇒ right click open as administrator
 <br />
 <br />
 Create a new file and paste the contents of the <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">script</a> in there
