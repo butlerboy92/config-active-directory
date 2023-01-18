@@ -187,7 +187,44 @@ Create _EMPLOYEES and _ADMINS
 <br />
 <br />
 Then in _ADMINS right click and create 'New' ⇒ 'User' name it whatever then right click your user and go to Properties >> Member of >> Add >> Domain Admins 
-<br/>
+<br />
+<br />
 OK and Apply to finish. Then logout of DC-1 and reconnect as mydomain.com\jane_admin
   and use this as your admin from now on.
+</p>
+
+<br />
+<br />
+<strong>✪ Creating _EMPLOYEES and _ADMINS</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/dyKLGfD.jpg" height="80%" width="80%" alt="Creation of _EMPLOYEES and _ADMINS"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Creating a user in _ADMINS</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/EZZGgnf.jpg" height="80%" width="80%" alt="Creation of user in _ADMINS"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Making user in _ADMINS an Admin</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/v0PyInY.jpg" height="80%" width="80%" alt="Making user into an Admin"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Reconnecting into DC-1 as new admin</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/HftVymZ.jpg" height="80%" width="80%" alt="Reconnecting to DC-1 as new Admin"/>
 </p>
