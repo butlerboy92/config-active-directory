@@ -271,3 +271,25 @@ Now login to Client-1 with the new admin account
 <p>
 <img src="https://i.imgur.com/X3T7jf2.jpg" height="80%" width="80%" alt="Client-1's PC name setting change to mydomain.com"/>
 </p>
+
+
+<strong> Step 4:</strong> Set up remote access for non-admin users on Client-1
+<br />
+<br />
+<p>
+Login to Client-1 as the admin from DC-1 
+<br />
+Right click start >> System >> Remote Desktop >> Select users that can remotely access this PC >> ADD >> Domain users
+<br />
+<br />
+Now you can log into Client-1 as a normal non-admin user
+</p>
+
+<br />
+<br />
+<strong>✪ Setting up Remote access for non-admin users </strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/YJNCxAe.jpg" height="80%" width="80%" alt="Setting up remote access for non-admin users"/>
+</p>
