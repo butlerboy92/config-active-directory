@@ -99,7 +99,7 @@ Sort by Protocol to find ICMPv4 and then enable both ICMP Echo requests and then
 <br />
 <br />
 
-<strong>Client-1 failing ping to DC-1</strong>
+<strong>✪ Client-1 failing ping to DC-1</strong>
 <br />
 <br />
 <p>
@@ -108,7 +108,7 @@ Sort by Protocol to find ICMPv4 and then enable both ICMP Echo requests and then
 
 <br />
 <br />
-<strong>Enabling pings in DC-1</strong>
+<strong>✪ Enabling pings in DC-1</strong>
 <br />
 <br />
 <p>
@@ -117,9 +117,55 @@ Sort by Protocol to find ICMPv4 and then enable both ICMP Echo requests and then
 
 <br />
 <br />
-<strong>Checking Client-1 for response from DC-1</strong>
+<strong>✪ Checking Client-1 for response from DC-1</strong>
 <br />
 <br />
 <p>
 <img src="https://i.imgur.com/95PwvPd.jpg" height="80%" width="80%" alt="Response from DC-1"/>
+</p>
+
+<br />
+<br />
+
+<strong> Step 2:</strong> Install Active Directory
+<br />
+<br />
+<p>
+Login to DC-1 and install Active Directory
+<br />
+<br />
+Make sure Server Manager is opened and then click Add roles and features then you want to click 'Next' till you get to Server roles and make sure Active Directory Domain Service is clicked. Then click 'Next' until you get to install.
+<br />
+<br />
+Once installed go to the flag with a yellow exclimation mark and click Promote this server to a domain controller
+<br />
+<br />
+In the radio selector select new root and name your domain (whatever).com and then 'Next' and just make the password whatever (it wont be used) then 'Next' through until you get to install and install AD and let it set up. It will need to restart so just reconnect after but you will have to use a different account called (nameofyourdomain)\(username) and then same password as the one you created during VM setup. Example:( mydomain.com\labuser1 ).
+</p>
+
+<br />
+<br />
+<strong>✪ Installing Active Directory</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/2xskjNc.jpg" height="80%" width="80%" alt="Installing Active Directory"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Making into a Domain Controller</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/VkMTMnF.jpg" height="80%" width="80%" alt="Making into a Domain Controller"/>
+</p>
+
+<br />
+<br />
+<strong>✪ Reconnecting DC-1 as domain controller with full quailified domain name</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/IwOYVdR.jpg" height="80%" width="80%" alt="Making into a Domain Controller"/>
 </p>
