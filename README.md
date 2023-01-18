@@ -88,5 +88,38 @@ Now we want to set DC-1 private IP address to be static so it doesn't change. (i
 <br />
 
 <p>
-Login to Client-1 and ping DC-1 ip address with ping -t (so it constantly keeps pinging)
+Login to Client-1 remotely and ping DC-1 ip address with ping -t (so it constantly keeps pinging)
+<br />
+<br />
+Login to DC-1 remotely and in the search bar on the task bar search <strong>wf.msc</strong> and continue
+<br />
+<br />
+Sort by Protocol to find ICMPv4 and then enable both ICMP Echo requests and then check back on Client-1 for a response
+</p>
+<br />
+<br />
+
+<strong>Client-1 failing ping to DC-1</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/GElhj1N.jpg" height="80%" width="80%" alt="Client-1 failing ping to DC-1"/>
+</p>
+
+<br />
+<br />
+<strong>Enabling pings in DC-1</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/ABVH4Tl.jpg" height="80%" width="80%" alt="Enablinging Ping in DC-1"/>
+</p>
+
+<br />
+<br />
+<strong>Checking Client-1 for response from DC-1</strong>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/95PwvPd.jpg" height="80%" width="80%" alt="Response from DC-1"/>
 </p>
