@@ -40,7 +40,8 @@ Make sure you remember the username and password you create
 </p>
 <br />
 <br />
-<strong>DC-1 VM</strong>
+<strong>✪ DC-1 VM</strong>
+<br />
 <br />
 <p>
 <img src="https://i.imgur.com/ToGULuK.jpg" height="80%" width="80%" alt="Creating DC-1 Virtual Machine"/>
@@ -49,7 +50,8 @@ Make sure you remember the username and password you create
 <br />
 <br />
 
-<strong>Client-1 VM</strong>
+<strong>✪ Client-1 VM</strong>
+<br />
 <br />
 <p>
 <img src="https://i.imgur.com/mcddAXN.jpg" height="80%" width="80%" alt="Creating Client-1 Virtual Machine"/>
@@ -62,7 +64,8 @@ Now we want to set DC-1 private IP address to be static so it doesn't change. (i
 </p>
 <br />
 <br />
-<strong>Networking Interface w/ dc-***</strong>
+<strong>✪ Networking Interface w/ dc-***</strong>
+<br />
 <br />
 <p>
 <img src="https://i.imgur.com/QyDyni9.jpg" height="80%" width="80%" alt="Networking Interface Location"/>
@@ -70,7 +73,8 @@ Now we want to set DC-1 private IP address to be static so it doesn't change. (i
 
 <br />
 <br />
-<strong>Swapping to Static</strong>
+<strong>✪ Swapping to Static</strong>
+<br />
 <br />
 <p>
 <img src="https://i.imgur.com/CGG1hVz.jpg" height="80%" width="80%" alt="Swapped IP to static"/>
